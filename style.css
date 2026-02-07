@@ -130,3 +130,44 @@ ul li {
         padding: 8px;
     }
     }
+/* Hamburger Menu */
+.menu-bar {
+    background-color: black;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    position: relative;
+}
+
+.menu-bar .menu-toggle {
+    display: none; /* hidden on desktop */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-bar .menu-links a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-bar .menu-links a:hover {
+    color: yellow;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 600px) {
+    .menu-bar .menu-toggle {
+        display: block;
+    }
+    .menu-bar .menu-links {
+        display: none;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .menu-bar .menu-links a {
+        display: block;
+        margin: 5px 0;
+    }
+                        }
