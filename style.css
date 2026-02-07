@@ -171,3 +171,37 @@ ul li {
         margin: 5px 0;
     }
                         }
+/* Polished Projects Section */
+ul li {
+    background-color: #e6f2ff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 8px auto;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #cce0ff;
+    transform: scale(1.03);
+}
+
+/* Buttons hover effect */
+button {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Menu hover effect */
+.menu-bar .menu-links a:hover {
+    color: #FFD700; /* gold color */
+    text-decoration: underline;
+}
+
+/* Contact form submit button */
+form input[type="submit"]:hover {
+    background-color: #218838; /* darker green */
+    }
