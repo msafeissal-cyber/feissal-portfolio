@@ -86,5 +86,35 @@ function toggleMenu() {
 </footer>
         <!-- Back to Top Button -->
 <button onclick="topFunction()" id="backToTop" title="Go to top">↑ Top</button>
+<script>
+// ===== Hamburger Menu =====
+function toggleMenu() {
+    var x = document.getElementById("menuLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+// ===== Back to Top Button =====
+var backToTopButton = document.getElementById("backToTop");
+
+// Show button when user scrolls down 100px
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+}
+
+// Scroll to top smoothly when button clicked
+function topFunction() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+    </script>
 </body>
 </html>
