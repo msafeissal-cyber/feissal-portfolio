@@ -84,3 +84,17 @@ a button {
 a button:hover {
     background-color: #128C7E;
 }
+/* Projects Section */
+h2 {
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+ul li {
+    text-align: left;
+    max-width: 400px;
+    margin: 5px auto;
+    padding: 5px 10px;
+    background-color: #e6f2ff;
+    border-radius: 5px;
+}
