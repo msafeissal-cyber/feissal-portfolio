@@ -75,3 +75,12 @@ form button {
 form button:hover {
     background-color: #1e7e34;
 }
+/* WhatsApp Button */
+a button {
+    background-color: #25D366; /* WhatsApp green */
+    margin-top: 10px;
+}
+
+a button:hover {
+    background-color: #128C7E;
+}
