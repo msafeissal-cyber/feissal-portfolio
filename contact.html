@@ -6,31 +6,29 @@
 </head>
 <body>
 
-    <div>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </div>
+<!-- Menu -->
+<div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</div>
 
-    <h1>Contact Me</h1>
+<h1>Contact Me</h1>
 
-    <p>You can send me a message below:</p>
+<p>If you want to reach me, please fill out the form below:</p>
 
-    <p>Name:</p>
-    <input type="text" placeholder="Enter your name">
+<form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your name"><br><br>
 
-    <p>Email:</p>
-    <input type="email" placeholder="Enter your email">
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Your email"><br><br>
 
-    <p>Message:</p>
-    <textarea placeholder="Write your message"></textarea>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea><br><br>
 
-    <br><br>
-    <button>Send Message</button>
-
-    <p>
-        <a href="index.html">← Back to Home</a>
-    </p>
+    <button type="submit">Send Message</button>
+</form>
 
 </body>
 </html>
