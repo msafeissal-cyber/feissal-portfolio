@@ -226,4 +226,8 @@ footer a:hover {
 img {
     border-radius: 50%;
     margin-top: 10px;
-                               }
+}
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+        }
