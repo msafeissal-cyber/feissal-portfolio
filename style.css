@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    font-size: 16px;
+}
+
+div {
+    background-color: black;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: yellow;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
