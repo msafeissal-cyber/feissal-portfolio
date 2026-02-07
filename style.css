@@ -98,3 +98,35 @@ ul li {
     background-color: #e6f2ff;
     border-radius: 5px;
 }
+/* Mobile-Friendly / Responsive Design */
+@media only screen and (max-width: 600px) {
+    
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    div {
+        padding: 5px;
+    }
+
+    a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    img {
+        width: 120px; /* smaller on phones */
+        margin: 10px auto;
+    }
+
+    form {
+        width: 95%;
+        padding: 15px;
+    }
+
+    ul li {
+        max-width: 95%;
+        padding: 8px;
+    }
+    }
