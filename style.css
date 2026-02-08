@@ -65,3 +65,24 @@ footer {
   font-size: 14px;
   opacity: 0.8;
 }
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill {
+    background: rgba(255,255,255,0.1);
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background: #00e5ff;
+    color: #0f2027;
+    transform: scale(1.1);
+}
