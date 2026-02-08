@@ -120,3 +120,70 @@ footer {
     color: #0f2027;
     transform: translateY(-5px) scale(1.05);
 }
+/* ===== MOBILE RESPONSIVE ===== */
+@media screen and (max-width: 768px) {
+
+    /* Container padding for smaller screens */
+    .container {
+        padding: 15px;
+    }
+
+    /* Profile image smaller on mobile */
+    img.profile {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Skills boxes stacked vertically */
+    .skills {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Project cards stacked vertically */
+    .projects {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Menu links stacked */
+    .menu-links {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background: rgba(0,0,0,0.2);
+        margin-top: 5px;
+        border-radius: 8px;
+    }
+
+    .menu-links a {
+        padding: 10px 0;
+        display: block;
+    }
+
+    .menu-toggle {
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        background: rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+  }@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .skill, .project-card {
+        width: 100%; /* Full width on tiny screens */
+    }
+      }
