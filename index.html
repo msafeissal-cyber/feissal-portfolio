@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html>
 <head>
-    <title>My First Website</title>
+    <title>MSA FEISSAL | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="profile.png">
-class="fade-in" <h1 class="fade-in">Welcome to My Website</h1>
-
-<h2 class="fade-in">My Skills</h2>
-<ul class="fade-in">
-    <li>HTML Beginner</li>
-    <li>Learning CSS</li>
-    <li>Website Design Practice</li>
-    <li>Creative Thinking</li>
-</ul>
-
-<h2 class="fade-in">My Projects</h2>
-<ul class="fade-in">
-    <li>Portfolio Website (this website!)</li>
-    <li>Simple Calculator with HTML & CSS</li>
-    <li>Personal Blog Layout</li>
-    <li>Landing Page for a Client</li>
-</ul>
-    <div>
-        <img src="profile.png" alt="MSA FEISSAL" width="150">
-        <!-- Responsive Menu -->
+<body><div class="container"><!-- MENU -->
 <div class="menu-bar">
     <span class="menu-toggle" onclick="toggleMenu()">☰ Menu</span>
     <div class="menu-links" id="menuLinks">
@@ -33,62 +12,39 @@ class="fade-in" <h1 class="fade-in">Welcome to My Website</h1>
         <a href="contact.html">Contact</a>
     </div>
 </div>
-    <h1>Welcome to My Website</h1>
 
-    <img src="profile.png" class="profile"> width="150">
+<!-- PROFILE IMAGE -->
+<img src="profile.png" class="profile">
 
-    <p>This is my personal homepage.</p>
+<h1>MSA FEISSAL</h1>
+<p>Welcome to my personal website.</p>
 
-    <p>
-        My name is Feissal. I am learning web development step by step.
-        This is my first website hosted on GitHub Pages.
-    </p>
+<h2>My Skills</h2>
+<ul>
+    <li>HTML Beginner</li>
+    <li>Learning CSS</li>
+    <li>Website Design Practice</li>
+    <li>Creative Thinking</li>
+</ul>
 
-    <h2>My Skills</h2>
-    <ul><h2>My Projects</h2>
+<h2>My Projects</h2>
 <ul>
     <li>Portfolio Website (this website!)</li>
-    <li>Simple Calculator with HTML & CSS</li>
+    <li>Simple Calculator (learning stage)</li>
     <li>Personal Blog Layout</li>
-    <li>Landing Page for a Client</li>
 </ul>
-        <li>HTML Beginner</li>
-        <li>Learning CSS</li>
-        <li>Website Design Practice</li>
-        <li>Creative Thinking</li>
-    </ul>
 
-    <h2>My Mission</h2>
-    <p>
-        I want to become a professional web developer and build beautiful
-        websites for people and businesses.
-    </p>
+<h2>My Mission</h2>
+<p>
+    I want to become a professional web developer and build beautiful
+    websites for people and businesses.
+</p>
 
-    <p>
-        <a href="about.html">Go to About Page →</a>
-    </p>
-<script>
-function toggleMenu() {
-    var x = document.getElementById("menuLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
-</script>
-<!-- Footer -->
 <footer>
-    <p>&copy; 2026 MSA FEISSAL. All rights reserved.</p>
-    <p>
-        <a href="https://github.com/MSA FEISSAL " target="_blank">GitHub</a> |
-        <a href="https://wa.me/233534584200 " target="_blank">WhatsApp</a>
-    </p>
+    <p>© 2026 MSA FEISSAL</p>
 </footer>
-        <!-- Back to Top Button -->
-<button onclick="topFunction()" id="backToTop" title="Go to top">↑ Top</button>
-<script>
-// ===== Hamburger Menu =====
+
+</div><script>
 function toggleMenu() {
     var x = document.getElementById("menuLinks");
     if (x.style.display === "block") {
@@ -97,25 +53,5 @@ function toggleMenu() {
         x.style.display = "block";
     }
 }
-
-// ===== Back to Top Button =====
-var backToTopButton = document.getElementById("backToTop");
-
-// Show button when user scrolls down 100px
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        backToTopButton.style.display = "block";
-    } else {
-        backToTopButton.style.display = "none";
-    }
-}
-
-// Scroll to top smoothly when button clicked
-function topFunction() {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-}
-    </script>
-</body>
+</script></body>
 </html>
