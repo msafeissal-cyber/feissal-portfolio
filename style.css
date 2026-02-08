@@ -219,3 +219,26 @@ footer {
     color: #0f2027;
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
+@media screen and (max-width: 600px) {
+    img.profile {
+        width: 100px;
+        height: 100px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    .skill, .project-card {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .menu-toggle {
+        font-size: 18px;
+    }
+}
