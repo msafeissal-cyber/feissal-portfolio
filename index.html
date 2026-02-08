@@ -1,50 +1,71 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html>
 <head>
     <title>MSA FEISSAL | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body><div class="container"><!-- MENU -->
-<div class="menu-bar">
-    <span class="menu-toggle" onclick="toggleMenu()">☰ Menu</span>
-    <div class="menu-links" id="menuLinks">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+<body>
+<div class="container">
+
+    <!-- MENU -->
+    <div class="menu-bar">
+        <span class="menu-toggle" onclick="toggleMenu()">☰ Menu</span>
+        <div class="menu-links" id="menuLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
     </div>
+
+    <!-- PROFILE IMAGE -->
+    <img src="profile.png" class="profile">
+
+    <!-- TYPING ANIMATION NAME -->
+    <h1 id="typing-name"></h1>
+    <p>Welcome to my personal website.</p>
+
+    <!-- SKILLS SECTION -->
+    <h2>My Skills</h2>
+    <div class="skills">
+        <div class="skill">HTML Beginner</div>
+        <div class="skill">Learning CSS</div>
+        <div class="skill">Website Design Practice</div>
+        <div class="skill">Creative Thinking</div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <h2>My Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>This website! Built with HTML, CSS, and GitHub Pages.</p>
+        </div>
+        <div class="project-card">
+            <h3>Simple Calculator</h3>
+            <p>A beginner-level calculator designed with HTML & CSS.</p>
+        </div>
+        <div class="project-card">
+            <h3>Personal Blog Layout</h3>
+            <p>Template for a personal blog to practice layouts and design.</p>
+        </div>
+    </div> 
+
+    <!-- MISSION SECTION -->
+    <h2>My Mission</h2>
+    <p>
+        I want to become a professional web developer and build beautiful
+        websites for people and businesses.
+    </p>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 MSA FEISSAL</p>
+    </footer>
+
 </div>
 
-<!-- PROFILE IMAGE -->
-<img src="profile.png" class="profile">
-
-<h1 id="MSA FEISSAL "></h1> 
-<p>Welcome to my personal website.</p>
-
-<h2>My Skills</h2>
-<div class="skills">
-    <div class="skill">HTML Beginner</div>
-    <div class="skill">Learning CSS</div>
-    <div class="skill">Website Design Practice</div>
-    <div class="skill">Creative Thinking</div>
-</div>
-
-<h2>My Projects</h2>
-<ul>
-    <li>Portfolio Website (this website!)</li>
-    <li>Simple Calculator (learning stage)</li>
-    <li>Personal Blog Layout</li>
-</ul>
-
-<h2>My Mission</h2>
-<p>
-    I want to become a professional web developer and build beautiful
-    websites for people and businesses.
-</p>
-
-<footer>
-    <p>© 2026 MSA FEISSAL</p>
-</footer>
-
-</div><script>
+<!-- MENU SCRIPT -->
+<script>
 function toggleMenu() {
     var x = document.getElementById("menuLinks");
     if (x.style.display === "block") {
@@ -53,7 +74,10 @@ function toggleMenu() {
         x.style.display = "block";
     }
 }
-</script><script>
+</script>
+
+<!-- TYPING ANIMATION SCRIPT -->
+<script>
 const nameText = "MSA FEISSAL";
 let i = 0;
 function typeName() {
@@ -64,6 +88,7 @@ function typeName() {
     }
 }
 typeName();
-            </script>
+</script>
+
 </body>
 </html>
