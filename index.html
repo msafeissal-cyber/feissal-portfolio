@@ -91,5 +91,22 @@ typeName();
 </script>
 <!-- Back to Top Button -->
 <button onclick="topFunction()" id="backToTop" title="Go to top">↑ Top</button>
+// ===== Back to Top Button =====
+var backToTopButton = document.getElementById("backToTop");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+}
+
+// Scroll to top smoothly
+function topFunction() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
 </body>
 </html>
