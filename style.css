@@ -208,3 +208,14 @@ footer {
 #backToTop:hover {
     background-color: #00bcd4;
   }
+/* Hover animation for skills and project cards */
+.skill, .project-card {
+    transition: all 0.3s ease;
+}
+
+.skill:hover, .project-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    background: #00e5ff;
+    color: #0f2027;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
