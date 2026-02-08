@@ -338,3 +338,21 @@ footer {
     color: #00e5ff;
     transform: scale(1.05);
 }
+@media screen and (max-width: 600px) {
+    .projects, .skills {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .project-card, .skill {
+        width: 100%;
+    }
+
+    .contact input, .contact textarea {
+        font-size: 14px;
+    }
+
+    .contact button {
+        width: 100%;
+    }
+    } 
