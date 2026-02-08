@@ -196,3 +196,39 @@ html {
     p { font-size: 16px; }
     .skill, .project-card { width: 100%; }
 }
+/* HIRE ME SECTION */
+.hire-me {
+    background: #00e5ff;
+    color: #0f2027;
+    padding: 25px 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.hire-me:hover {
+    transform: scale(1.02);
+}
+.hire-me h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.hire-me p {
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+.hire-btn {
+    display: inline-block;
+    background: #0f2027;
+    color: #00e5ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.hire-btn:hover {
+    background: #0b151b;
+    color: #00fff2;
+    transform: scale(1.05);
+}
