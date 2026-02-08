@@ -16,16 +16,16 @@
 <!-- PROFILE IMAGE -->
 <img src="profile.png" class="profile">
 
-<h1>MSA FEISSAL</h1>
+<h1 id="MSA FEISSAL "></h1> 
 <p>Welcome to my personal website.</p>
 
 <h2>My Skills</h2>
-<ul>
-    <li>HTML Beginner</li>
-    <li>Learning CSS</li>
-    <li>Website Design Practice</li>
-    <li>Creative Thinking</li>
-</ul>
+<div class="skills">
+    <div class="skill">HTML Beginner</div>
+    <div class="skill">Learning CSS</div>
+    <div class="skill">Website Design Practice</div>
+    <div class="skill">Creative Thinking</div>
+</div>
 
 <h2>My Projects</h2>
 <ul>
@@ -53,5 +53,17 @@ function toggleMenu() {
         x.style.display = "block";
     }
 }
-</script></body>
+</script><script>
+const nameText = "MSA FEISSAL";
+let i = 0;
+function typeName() {
+    if (i < nameText.length) {
+        document.getElementById("typing-name").innerHTML += nameText.charAt(i);
+        i++;
+        setTimeout(typeName, 150);
+    }
+}
+typeName();
+            </script>
+</body>
 </html>
