@@ -290,3 +290,51 @@ footer {
     color: #00e5ff;
     transform: scale(1.05);
 }
+.project-card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: left;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #00e5ff;
+}
+
+.project-card p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.project-card:hover {
+    background: #00e5ff;
+    color: #0f2027;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.project-btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.project-btn:hover {
+    background: #0f2027;
+    color: #00e5ff;
+    transform: scale(1.05);
+}
